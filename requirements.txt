@@ -1,0 +1,13 @@
+# Veri üreteçleri ve testleri yalnız standart kütüphaneyi kullanır (Python 3.10+).
+#
+# Modeli çalıştırmak ve değerlendirmek için (PyTorch ayrıca kurulur: https://pytorch.org;
+# geliştirmede torch 2.11.0+cu130 kullanıldı):
+transformers==5.5.4
+peft==0.18.1
+accelerate
+safetensors
+#
+# Yeniden eğitmek için ek olarak (training/train.py; geliştirmede Unsloth Studio ortamı):
+# unsloth==2026.11.5
+# trl==0.23.1
+# bitsandbytes==0.50.2

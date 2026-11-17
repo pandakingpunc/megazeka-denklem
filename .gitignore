@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.cache/
+unsloth_compiled_cache/
+# Veri üreteçlerle yeniden üretilir; yayın kopyası Hugging Face veri deposunda.
+data/
+# Adaptörler Hugging Face model deposunda; kontrol noktaları yerelde kalır.
+models/
+reports/egitim-*.log
+reports/taban-*.json

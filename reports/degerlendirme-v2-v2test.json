@@ -1,0 +1,6261 @@
+{
+ "ozet": {
+  "adapter": "models/v2",
+  "n_test": 600,
+  "sure_sn": 990.9,
+  "cevap_dogru": 600,
+  "tam_eslesme": 569,
+  "ara_satir_hatasi_olan": 0,
+  "saglama_aritmetigi_dogru": "543/574",
+  "yanlis_cevapta_saglama_tutuyor_diyor": 0,
+  "tip_basina": {
+   "ozel_sonsuz": "15/15",
+   "ozel_yok": "11/11",
+   "sozel": "37/37",
+   "t1": "27/27",
+   "t10": "27/27",
+   "t11": "10/10",
+   "t12": "27/27",
+   "t13": "21/21",
+   "t14": "14/14",
+   "t15": "35/35",
+   "t16": "15/15",
+   "t2": "53/53",
+   "t3": "63/63",
+   "t4": "55/55",
+   "t5": "36/36",
+   "t6": "61/61",
+   "t7": "40/40",
+   "t8": "28/28",
+   "t9": "25/25"
+  },
+  "ood_dogru": "24/24"
+ },
+ "test": [
+  {
+   "tip": "t4",
+   "soru": "bunu çözer misin 7n + 4 = -21",
+   "beklenen": "-25/7",
+   "model": "-25/7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ali'nin yaşının 5 katı 105 ise Ali kaç yaşındadır?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "x + x + 25 = -x + 5x + 29 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "5x-3=-32 bu denklemin çözümü nedir",
+   "beklenen": "-29/5",
+   "model": "-29/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "31 - 12x = 49 + 2x denklemini çözüp sağlamasını yap.",
+   "beklenen": "-9/7",
+   "model": "-9/7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 31 - 12x = 49 + 2x\n\n1. adım: Terimleri düzenleyelim.\n-12x + 31 = 2x + 49\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n-12x - 2x + 31 = 49\n-14x + 31 = 49\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 31 çıkaralım.\n-14x = 49 - 31\n-14x = 18\n\n4. adım: Her iki tarafı -14'e bölelim.\nx = 18/(-14)\nx = -9/7 (pay ve payda 2 ile sadeleşti)\n\nSağlama: x = -9/7 değerini ilk denklemde yerine koyalım.\nSol taraf: 31 - 12·(-9/7) = 31 + 108/7 = 359/7\nSağ taraf: 49 + 2·(-9/7) = 49 - 18/7 = 359/7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -9/7"
+  },
+  {
+   "tip": "t12",
+   "soru": "solve 7x+5+4x=-39",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "Çöz bakalım: 5(x - 12) = -35",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "solve t/5=3",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Adım adım çöz: n/5=3",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Merhaba, şu denklemde takıldım: x/5=3. Yardım eder misin?",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "a/5 = 3 için a değerini hesapla.",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "m/5=3 için m değerini hesapla.",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "bunu çözer misin b/5=3",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Adım adım çöz: y/5=3",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "ödevim var z/5 = 3 bunu çözer misin lütfen",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "11(x + 1) = 4x + 200 denkleminin kökü nedir?",
+   "beklenen": "27",
+   "model": "27",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "-10(x - 20) - 60 = 60 denkleminin kökü nedir?",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki tam sayının toplamı 3. Küçük sayı kaçtır?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "Merhaba, şu denklemde takıldım: 2(x + 20) - 60 = -10. Yardım eder misin?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "(x + 16)/6 = 3 denkleminde x kaçtır?",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "Merhaba, şu denklemde takıldım: 7(x - 18) = 12(x - 18). Yardım eder misin?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "5x-11-10x+50=-51 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "solve 40+3x=43",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "8 + 5x=-27 ise x?",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-2x + 3 = 13 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 8 katından 21 çıkarılınca sonuç 107 oluyor. Bu sayı kaçtır?",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3m + 18 = 21 için m değerini hesapla.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Denklemi çöz: 3y+53-10y=-24",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Çöz bakalım: -1 + 5x = 7x - 37",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Merhaba, şu denklemde takıldım: -10x - 51 = 11x + 59. Yardım eder misin?",
+   "beklenen": "-110/21",
+   "model": "-110/21",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -10x - 51 = 11x + 59\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 11x çıkaralım.\n-10x - 11x - 51 = 59\n-21x - 51 = 59\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 51 ekleyelim.\n-21x = 59 + 51\n-21x = 110\n\n3. adım: Her iki tarafı -21'e bölelim.\nx = 110/(-21)\nx = -110/21\n\nSağlama: x = -110/21 değerini ilk denklemde yerine koyalım.\nSol taraf: -10·(-110/21) - 51 = 1100/21 - 51 = -479/21\nSağ taraf: 11·(-110/21) + 59 = -1210/21 + 59 = -479/21\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -110/21"
+  },
+  {
+   "tip": "t12",
+   "soru": "Denklemi çöz: 8x+40-12x-56=28",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 10 katı, aynı sayının 2 katından 80 fazladır. Bu sayı kaçtır?",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-6x + 40=-37 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "77/6",
+   "model": "77/6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Denklemi çöz: -34+5x=-24",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "x için çöz: 9x − 2 = −38",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "b'yi bul: 3(b - 10) - 54 = 3b - 84",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "11x-2=3 için x değerini hesapla.",
+   "beklenen": "5/11",
+   "model": "5/11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3x − 57 = 37 denkleminin çözüm kümesi nedir?",
+   "beklenen": "94/3",
+   "model": "94/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "Denklemi çöz: 2(x + 49) = 10",
+   "beklenen": "-44",
+   "model": "-44",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "6(x + 17) = 11x - 23 ise x?",
+   "beklenen": "25",
+   "model": "25",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Adım adım çöz: 25 + 9x = 43",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "19 - 4Y = 59 - 8Y denkleminde Y kaçtır?",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "5x/6-3=12 denklemini çözüp sağlamasını yap.",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "Merhaba, şu denklemde takıldım: (x + 3)/2 = -3. Yardım eder misin?",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "6(x - 12) + 34 = 22 çöz",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "11x+38-7x-7=47 denklemini çözüp sağlamasını yap.",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "-8(x+4)=4(x-41) denklemini çözüp sağlamasını yap.",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık üç tam sayının toplamı 57. Ortanca sayı kaçtır?",
+   "beklenen": "19",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "4(x + 19) = 32 denklemini çöz.",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "5x + 58 = 8x + 53 denklemini çöz.",
+   "beklenen": "5/3",
+   "model": "5/3",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 5x + 58 = 8x + 53\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 8x çıkaralım.\n5x - 8x + 58 = 53\n-3x + 58 = 53\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 58 çıkaralım.\n-3x = 53 - 58\n-3x = -5\n\n3. adım: Her iki tarafı -3'e bölelim.\nx = -5/(-3)\nx = 5/3\n\nSağlama: x = 5/3 değerini ilk denklemde yerine koyalım.\nSol taraf: 5·(5/3) + 58 = 25/3 + 58 = 209/3\nSağ taraf: 8·(5/3) + 53 = 40/3 + 53 = 209/3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 5/3"
+  },
+  {
+   "tip": "t4",
+   "soru": "Denklemi çöz: 3n + 31 = -51",
+   "beklenen": "-82/3",
+   "model": "-82/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "23 + 11x = 7 + 7x bu denklemin çözümü nedir",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "9(x - 12) = -27 çöz",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "37 - 6x = -5 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-2(x+8)=-38 denkleminin çözüm kümesi nedir?",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "bunu çözer misin 3B + 18 = 6B - 18",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Denklemi çöz: -4x = -52",
+   "beklenen": "13",
+   "model": "13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "Merhaba, şu denklemde takıldım: n/2+n/5=14. Yardım eder misin?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x/2+x/5=14 denkleminde x kaçtır?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "4x − 16 − 5x − 19 = −44 çöz",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "7(x - 6) = 56 denkleminin çözümünü adım adım göster.",
+   "beklenen": "14",
+   "model": "14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "Merhaba, şu denklemde takıldım: -3(x+8)+22=16. Yardım eder misin?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "3(x + 9) = 3x - 5 çöz",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t1",
+   "soru": "x'i bul: x-5=2",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının yarısının 14 fazlası 20 eder?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "2b/3-40=-46 çöz",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "12x + 25 = 49 denklemini çöz.",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "4x + 57 = -9x + 39 çöz",
+   "beklenen": "-18/13",
+   "model": "-18/13",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 4x + 57 = -9x + 39\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 9x ekleyelim.\n4x + 9x + 57 = 39\n13x + 57 = 39\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 57 çıkaralım.\n13x = 39 - 57\n13x = -18\n\n3. adım: Her iki tarafı 13'e bölelim.\nx = -18/13\n\nSağlama: x = -18/13 değerini ilk denklemde yerine koyalım.\nSol taraf: 4·(-18/13) + 57 = -72/13 + 57 = 699/13\nSağ taraf: -9·(-18/13) + 39 = 162/13 + 39 = 699/13\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -18/13"
+  },
+  {
+   "tip": "t6",
+   "soru": "Merhaba, şu denklemde takıldım: 3X + 5 = 2X - 1. Yardım eder misin?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Adım adım çöz: -6x=-192",
+   "beklenen": "32",
+   "model": "32",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3b=21 bu denklemin çözümü nedir",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Çöz bakalım: 3x=21",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "n'yi bul: 3n = 21",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "ödevim var 9x + 10 = 244 bunu çözer misin lütfen",
+   "beklenen": "26",
+   "model": "26",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "Çöz bakalım: 17 - 8x = 41",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 9 katı, aynı sayının 7 katından 78 fazladır. Bu sayı kaçtır?",
+   "beklenen": "39",
+   "model": "39",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "-2*(x - 6) = 2*(x + 36) denkleminin çözümünü adım adım göster.",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "(x + 15)/6 = 5 bu denklemin çözümü nedir",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "11m = 55 için m değerini hesapla.",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "11y = 55 denklemini çözüp sağlamasını yap.",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "11x = 55 denkleminin kökü nedir?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "11b = 55 eşitliğini sağlayan b değerini bul.",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "12(x - 4) = 3(x - 31) denkleminde x kaçtır?",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "2x + 3 = 2x + 54 çöz",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t7",
+   "soru": "bunu çözer misin -9(x + 16) = 28",
+   "beklenen": "-172/9",
+   "model": "-172/9",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -9(x + 16) = 28\n\n1. adım: Parantezleri açalım (dağılma özelliği): -9·x = -9x, -9·16 = -144.\n-9x - 144 = 28\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 144 ekleyelim.\n-9x = 28 + 144\n-9x = 172\n\n3. adım: Her iki tarafı -9'a bölelim.\nx = 172/(-9)\nx = -172/9\n\nSağlama: x = -172/9 değerini ilk denklemde yerine koyalım.\nSol taraf: -9·(-172/9 + 16) = -9·(28/9) = -28\nSağ taraf: 28\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -172/9"
+  },
+  {
+   "tip": "t4",
+   "soru": "Denklemi çöz: 3x+31=-20",
+   "beklenen": "-17",
+   "model": "-17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-2-6x=9-3x",
+   "beklenen": "-11/3",
+   "model": "-11/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "4x + 29 + 4x = 8x + 29",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t9",
+   "soru": "12(x + 9) = 2(x + 29) ise x?",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "−14 = 12x + 46 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "59 + 2m = 33 denklemini çöz.",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "bunu çözer misin x/11 = -5",
+   "beklenen": "-55",
+   "model": "-55",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "solve 10x + 4 = 53",
+   "beklenen": "49/10",
+   "model": "49/10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "-2(x + 15) = -2x - 30 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "sozel",
+   "soru": "Selin'in parasının 11 katının 46 TL fazlası 684 TL ediyor. Selin'in kaç TL'si vardır?",
+   "beklenen": "58",
+   "model": "58",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "2(x + 3) + 44 = 24 denkleminin kökü nedir?",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "7x = -7 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "solve 7b = −7",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "7n = -7 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "x'i bul: -16+10x=44",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "-12x + 36 = -12(x - 3) ise x?",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t7",
+   "soru": "5(x + 15) = 25 denklemini çöz.",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "−21 = 4x − 5 bu denklemin çözümü nedir",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Denklemi çöz: 7x+10=-18",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "2x + 45 = 211",
+   "beklenen": "83",
+   "model": "83",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "Şu denklemi adım adım çözer misin? x/3 + x/5 = -8",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(b-13)=-12 denkleminde b kaçtır?",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3x = -36 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "x'i bul: -6 - 7x = -27",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "Adım adım çöz: 7(x + 4) = 9(x + 20)",
+   "beklenen": "-76",
+   "model": "-76",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "6x - 16 = 5x - 11 çöz",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 33 = 41 için x değerini hesapla.",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Denklemi çöz: 13 - 5x = 11x + 16",
+   "beklenen": "-3/16",
+   "model": "-3/16",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 13 - 5x = 11x + 16\n\n1. adım: Terimleri düzenleyelim.\n-5x + 13 = 11x + 16\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 11x çıkaralım.\n-5x - 11x + 13 = 16\n-16x + 13 = 16\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 13 çıkaralım.\n-16x = 16 - 13\n-16x = 3\n\n4. adım: Her iki tarafı -16'ya bölelim.\nx = 3/(-16)\nx = -3/16\n\nSağlama: x = -3/16 değerini ilk denklemde yerine koyalım.\nSol taraf: 13 - 5·(-3/16) = 13 + 15/16 = 209/16\nSağ taraf: 11·(-3/16) + 16 = -33/16 + 16 = 209/16\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -3/16"
+  },
+  {
+   "tip": "t4",
+   "soru": "12*z - 55 = 40 ise z kaçtır?",
+   "beklenen": "95/12",
+   "model": "95/12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12x - 22 = 2x + 48",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4*x = 160 çöz",
+   "beklenen": "40",
+   "model": "40",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Merhaba, şu denklemde takıldım: 22 - 10Y = 46 + 2Y. Yardım eder misin?",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "4(x - 24) = 6(x + 7) ise x kaçtır?",
+   "beklenen": "-69",
+   "model": "-69",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "11(y + 7) = -42 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-119/11",
+   "model": "-119/11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "solve 5(x + 15) = -47",
+   "beklenen": "-122/5",
+   "model": "-122/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3b - 19 = 41 denkleminin kökü nedir?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "5y + 10 = 11 denkleminde y kaçtır?",
+   "beklenen": "1/5",
+   "model": "1/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki tam sayının toplamı 37 ediyor. Küçük sayı kaçtır?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-3b - 57 = -10b - 8 ise b kaçtır?",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "Denklemi çöz: 9(x + 15) - 30 = -12",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Çöz bakalım: 44 + 3z = 2",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "9b - 22 - 6b + 53 = 25 eşitliğini sağlayan b değerini bul.",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Merhaba, şu denklemde takıldım: 9*x = 36. Yardım eder misin?",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "9y=36 bu denklemin çözümü nedir",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Şu denklemi adım adım çözer misin? 9*b = 36",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "Adım adım çöz: 4(b+16)=33",
+   "beklenen": "-31/4",
+   "model": "-31/4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3x = -42 denkleminin kökü nedir?",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3m = -42 ise m kaçtır?",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki tam sayının toplamı 13. Küçük sayı kaçtır?",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(x-1)=-54 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 3 katından 54 çıkarılınca sonuç 9 oluyor. Bu sayı kaçtır?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-28-3X=-49 eşitliğini sağlayan X değerini bul.",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "x'i bul: 11(x+16)=-26",
+   "beklenen": "-202/11",
+   "model": "-202/11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının yarısının 54 fazlası 70 eder?",
+   "beklenen": "32",
+   "model": "32",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "2a/5 - 51 = -55 denkleminde a kaçtır?",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "bunu çözer misin x - 13 = 6",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "solve (b-5)/2=-9",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "x için çöz: 4(x + 5) + 7 = 39",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "bunu çözer misin 3(t - 6) = 6t + 162",
+   "beklenen": "-60",
+   "model": "-60",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "3x + 35 = 6x + 50 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 11 katından 24 çıkarılınca sonuç 240 oluyor. Bu sayı kaçtır?",
+   "beklenen": "24",
+   "model": "24",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x - 46 = -26 için x değerini hesapla.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "x'i bul: -10 + 5x = -15",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "4x - 57 = -55 için x değerini hesapla.",
+   "beklenen": "1/2",
+   "model": "1/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Denklemi çöz: 5*x - 28 + 9*x = 0",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "Çöz bakalım: b+30=41",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "10 - 4x = 30 denkleminin kökü nedir?",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "7 - 7*x = 35 - 9*x denklemini çöz.",
+   "beklenen": "14",
+   "model": "14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "11n + 15 = 10n + 3 eşitliğini sağlayan n değerini bul.",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/10 = -7 ise x?",
+   "beklenen": "-70",
+   "model": "-70",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "Şu denklemi adım adım çözer misin? x/3+13=11",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "3x/5+22=25 için x değerini hesapla.",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3*x = 6 denkleminin kökü nedir?",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "-11y = -22 için y değerini hesapla.",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "ödevim var -11t = -22 bunu çözer misin lütfen",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "bunu çözer misin x + 39 = 58",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "bunu çözer misin x/10 + 40 = 42",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12n - 33 = -5n - 50 için n değerini hesapla.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "-10+48-x=7x+21+9x ise x?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "x'i bul: -x - 35 = -31 - 7x + 8x",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "4n + 7 = 8n + 45 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-19/2",
+   "model": "-19/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "m için çöz: -9(m+6)=6(m-34)",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(y + 14) = 42 ise y kaçtır?",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "2x/3 + 2 = 8 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "6x + 8 = 20 denkleminin kökü nedir?",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-46+4x=5x-50 bu denklemin çözümü nedir",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "-6*x - 25 + 3 + 9*x = 44 - 46 + x denklemini çöz.",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-10b-49=-12 denklemini çöz.",
+   "beklenen": "-37/10",
+   "model": "-37/10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/3 = -17 denklemini çöz.",
+   "beklenen": "-51",
+   "model": "-51",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık üç tam sayının toplamı 51. Küçük sayı kaçtır?",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "ödevim var -12 + 2*x = -12*x + 44 bunu çözer misin lütfen",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/3 = 14 denkleminde y kaçtır?",
+   "beklenen": "42",
+   "model": "42",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/3 = 14 denkleminin çözüm kümesi nedir?",
+   "beklenen": "42",
+   "model": "42",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "Adım adım çöz: (x - 12)/3=-8",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "solve 8x - 1 = 3x + 32",
+   "beklenen": "33/5",
+   "model": "33/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x - 4 = 16 için x değerini hesapla.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "5x = -45 ise x kaçtır?",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "5m = -45 ise m kaçtır?",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3x + 49 = 37 denklemini çöz.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-11x+19=-47 denklemini çözüp sağlamasını yap.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Denklemi çöz: 12x-1=-10x+17",
+   "beklenen": "9/11",
+   "model": "9/11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-5(x + 4) = -37 denklemini çözüp sağlamasını yap.",
+   "beklenen": "17/5",
+   "model": "17/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Şu denklemi adım adım çözer misin? 9x+25=5x+45",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "4x - 19 = 4x - 4",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t8",
+   "soru": "Adım adım çöz: 10(m - 5) = 7m - 20",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "10(x - 3)=4x - 48",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının yarısının 45 fazlası 76 eder?",
+   "beklenen": "62",
+   "model": "62",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "2(x+12)=40 ise x?",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "Denklemi çöz: 5x/6-15=-10",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12x + 6 = 2x − 14 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "bunu çözer misin 9x + 25 - 3x = -17",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "8x + 52=60 denklemini çöz.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "10X - 47 = 12X - 36 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-11/2",
+   "model": "-11/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-28 - 9x = 5x + 58 denklemini çöz.",
+   "beklenen": "-43/7",
+   "model": "-43/7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -28 - 9x = 5x + 58\n\n1. adım: Terimleri düzenleyelim.\n-9x - 28 = 5x + 58\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 5x çıkaralım.\n-9x - 5x - 28 = 58\n-14x - 28 = 58\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 28 ekleyelim.\n-14x = 58 + 28\n-14x = 86\n\n4. adım: Her iki tarafı -14'e bölelim.\nx = 86/(-14)\nx = -43/7 (pay ve payda 2 ile sadeleşti)\n\nSağlama: x = -43/7 değerini ilk denklemde yerine koyalım.\nSol taraf: -28 - 9·(-43/7) = -28 + 387/7 = 109/7\nSağ taraf: 5·(-43/7) + 58 = -215/7 + 58 = 109/7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -43/7"
+  },
+  {
+   "tip": "t5",
+   "soru": "Denklemi çöz: 5=7x+54",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık üç tam sayının toplamı 66. Ortanca sayı kaçtır?",
+   "beklenen": "22",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının yarısına 4 eklenince sonuç 32 oluyor. Bu sayı kaçtır?",
+   "beklenen": "56",
+   "model": "56",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Çöz bakalım: 6z + 37 - 8z - 58 = -1",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "Merhaba, şu denklemde takıldım: -4x+25=-23. Yardım eder misin?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "5-9x=-12x+26 ise x?",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "x için çöz: 8(x+3)=-46",
+   "beklenen": "-35/4",
+   "model": "-35/4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Şu denklemi adım adım çözer misin? 137-2x=5x-10",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "solve 8*y + 16 = 8*(y + 2)",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "8x+16=8(x+2) ise x kaçtır?",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "x için çöz: 2x - 34 = -36",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "12(x+3)=11(x+2) ise x?",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "3x+15=6x-39 ise x kaçtır?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-2x + 41 = -60 denklemini çöz.",
+   "beklenen": "101/2",
+   "model": "101/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3x + 15 = -27 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "5(x-17)=-31 denkleminin çözümünü adım adım göster.",
+   "beklenen": "54/5",
+   "model": "54/5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "x'i bul: 3x-45=3(x-15)",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t1",
+   "soru": "x - 51 = -45 denklemini çöz.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x/5 + x/7 = -24",
+   "beklenen": "-70",
+   "model": "-70",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "49 - 10x = 39 ise x kaçtır?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "3t-37-4t+13=-25 denklemini çözüp sağlamasını yap.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "6(x-5)+14=6x-16 ise x kaçtır?",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t1",
+   "soru": "x+5=6 denklemini çözüp sağlamasını yap.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "solve 43 + x = 11 - 11x",
+   "beklenen": "-8/3",
+   "model": "-8/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "solve 5x/11+26=31",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "-12(x+18)=4(x-38)",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "bunu çözer misin 2n + 37 = 35",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Merhaba, şu denklemde takıldım: 6x − 33 = 2x + 50. Yardım eder misin?",
+   "beklenen": "83/4",
+   "model": "83/4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "bunu çözer misin 12z - 29 = 10z + 5",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "x'i bul: 12*x + 41 + 7*x = 3",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "2x + 71 = -25 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-48",
+   "model": "-48",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x/3+x/4=7 denkleminin kökü nedir?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "z için çöz: z/3 + z/4 = 7",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "Denklemi çöz: 4x − 16 = 4(x − 4)",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t12",
+   "soru": "solve 10*x + 13 - 12*x = 19",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "bunu çözer misin x/4 + x/10 = 7",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "n/4 + n/10 = 7 eşitliğini sağlayan n değerini bul.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "4x − 226 = 5x − 247 denkleminin çözüm kümesi nedir?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "2x + 9 = 49 denkleminin çözümünü adım adım göster.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "-2z=28 bu denklemin çözümü nedir",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "-2x=28 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Şu denklemi adım adım çözer misin? 11Y + 3 = -30",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Şu denklemi adım adım çözer misin? 4x - 141 = 10x - 9",
+   "beklenen": "-22",
+   "model": "-22",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "-35=4x-55 ise x?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "9*(x - 5) = 11*x - 21 çöz",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Merhaba, şu denklemde takıldım: 8n=-48. Yardım eder misin?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "8t=-48 denkleminin kökü nedir?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "x'i bul: 8x=-48",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "4x-30=-54 denklemini çöz.",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "10(x - 10) - 53 = 37",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "ödevim var 3x = 39 bunu çözer misin lütfen",
+   "beklenen": "13",
+   "model": "13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "t/3 = 6 denklemini çözüp sağlamasını yap.",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? m/3 = 6",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/3 = 6 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/3=6 bu denklemin çözümü nedir",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Adım adım çöz: z/3 = 6",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-7x+1=7x-18 denkleminin çözümünü adım adım göster.",
+   "beklenen": "19/14",
+   "model": "19/14",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -7x + 1 = 7x - 18\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 7x çıkaralım.\n-7x - 7x + 1 = -18\n-14x + 1 = -18\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 1 çıkaralım.\n-14x = -18 - 1\n-14x = -19\n\n3. adım: Her iki tarafı -14'e bölelim.\nx = -19/(-14)\nx = 19/14\n\nSağlama: x = 19/14 değerini ilk denklemde yerine koyalım.\nSol taraf: -7·(19/14) + 1 = -133/14 + 1 = -109/14\nSağ taraf: 7·(19/14) - 18 = 133/14 - 18 = -109/14\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 19/14"
+  },
+  {
+   "tip": "t10",
+   "soru": "Merhaba, şu denklemde takıldım: x/11 - 33 = -34. Yardım eder misin?",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "x için çöz: 6x+46-9x=-5",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "t-55=-59 bu denklemin çözümü nedir",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Merhaba, şu denklemde takıldım: m/12=-1. Yardım eder misin?",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/12 = -1",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? x/12=-1",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "ödevim var t/12 = -1 bunu çözer misin lütfen",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? z/12=-1",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "a/12 = -1 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Denklemi çöz: y/12=-1",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Denklemi çöz: b/12 = -1",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının yarısına 8 eklenince sonuç 30 oluyor. Bu sayı kaçtır?",
+   "beklenen": "44",
+   "model": "44",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "(x + 12)/3 = 5 denkleminin çözüm kümesi nedir?",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x'i bul: x/5 + x/7 = 12",
+   "beklenen": "35",
+   "model": "35",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-4(x + 18) = -40 bu denklemin çözümü nedir",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "52 = 8x + 12 denkleminin çözümünü adım adım göster.",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Şu denklemi adım adım çözer misin? -9n = -27",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının üçte biri 39 eder?",
+   "beklenen": "117",
+   "model": "117",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "x için çöz: -3(x + 11) = 4(x - 24)",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "solve 4*x + 17 + 9*x = 13*x + 7",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t3",
+   "soru": "b/3 = 2 denkleminde b kaçtır?",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/3 = 2 denklemini çöz.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "m için çöz: m/3 = 2",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "t/3 = 2 denklemini çözüp sağlamasını yap.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/3=2 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/3 = 2 denkleminin çözüm kümesi nedir?",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? a/3 = 2",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x'i bul: x+11=27",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "−25 + 3x = 2x − 6 ise x?",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "7x+6=44 denklemini çöz.",
+   "beklenen": "38/7",
+   "model": "38/7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/9 + 21 = 22 denkleminin çözümünü adım adım göster.",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Denklemi çöz: 56+9x=7+2x",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x - 4 = -18 denklemini çöz.",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3x - 32 = 1 denklemini çözüp sağlamasını yap.",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "Şu denklemi adım adım çözer misin? 2x + 5x + 188 = -5x - 8x - 272",
+   "beklenen": "-23",
+   "model": "-23",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "solve x + 58 = 51",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Merhaba, şu denklemde takıldım: -9 = 3x + 21. Yardım eder misin?",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-6x-12=-40",
+   "beklenen": "14/3",
+   "model": "14/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/12 + 25 = 24 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "46 = 7z - 17 bu denklemin çözümü nedir",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "2(x + 16) = -10(x - 20) için x değerini hesapla.",
+   "beklenen": "14",
+   "model": "14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Adım adım çöz: 12*x + 60 = 6*x - 8",
+   "beklenen": "-34/3",
+   "model": "-34/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Merhaba, şu denklemde takıldım: 10+2x=12. Yardım eder misin?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "-6 + 3x = -36 bu denklemin çözümü nedir",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "5 + 2x = x + 16 denkleminde x kaçtır?",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "bunu çözer misin 2x + 11 + 7x = 29",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4x=8 denkleminin kökü nedir?",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "bunu çözer misin 5(X-20)-23=-23",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "ödevim var 7x=-14 bunu çözer misin lütfen",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "Çöz bakalım: (x + 2)/2 = 8",
+   "beklenen": "14",
+   "model": "14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "solve x/4 - 32 = -34",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının üçte birinin 4 eksiği 3 eder?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "solve -36+6x=39-9x",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "3(x+11)+42=3x+75",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t15",
+   "soru": "227 − 8x = 9x − 7 için x değerini hesapla.",
+   "beklenen": "234/17",
+   "model": "234/17",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 227 - 8x = 9x - 7\n\n1. adım: Terimleri düzenleyelim.\n-8x + 227 = 9x - 7\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 9x çıkaralım.\n-8x - 9x + 227 = -7\n-17x + 227 = -7\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 227 çıkaralım.\n-17x = -7 - 227\n-17x = -234\n\n4. adım: Her iki tarafı -17'ye bölelim.\nx = -234/(-17)\nx = 234/17\n\nSağlama: x = 234/17 değerini ilk denklemde yerine koyalım.\nSol taraf: 227 - 8·(234/17) = 227 - 1872/17 = 2659/17\nSağ taraf: 9·(234/17) - 7 = 2082/17 - 7 = 2659/17\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 234/17"
+  },
+  {
+   "tip": "t8",
+   "soru": "7(x+7)=10x+25 bu denklemin çözümü nedir",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-5x+57=2x+39 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "18/7",
+   "model": "18/7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -5x + 57 = 2x + 39\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n-5x - 2x + 57 = 39\n-7x + 57 = 39\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 57 çıkaralım.\n-7x = 39 - 57\n-7x = -18\n\n3. adım: Her iki tarafı -7'ye bölelim.\nx = -18/(-7)\nx = 18/7\n\nSağlama: x = 18/7 değerini ilk denklemde yerine koyalım.\nSol taraf: -5·(18/7) + 57 = -90/7 + 57 = 261/7\nSağ taraf: 2·(18/7) + 39 = 36/7 + 39 = 261/7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 18/7"
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "12(x+4)=12x+48 için x değerini hesapla.",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t7",
+   "soru": "Adım adım çöz: -8(x + 18) = -32",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "2(x + 17) = 8 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "-6+42+7t=6t-8t+54",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "Şu denklemi adım adım çözer misin? x/7 + 57 = 56",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "8x + 54 = 3x - 21 için x değerini hesapla.",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-4x - 11 = 11x - 22 çöz",
+   "beklenen": "11/15",
+   "model": "11/15",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -4x - 11 = 11x - 22\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 11x çıkaralım.\n-4x - 11x - 11 = -22\n-15x - 11 = -22\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 11 ekleyelim.\n-15x = -22 + 11\n-15x = -11\n\n3. adım: Her iki tarafı -15'e bölelim.\nx = -11/(-15)\nx = 11/15\n\nSağlama: x = 11/15 değerini ilk denklemde yerine koyalım.\nSol taraf: -4·(11/15) - 11 = -44/15 - 11 = -199/15\nSağ taraf: 11·(11/15) - 22 = 121/15 - 22 = -199/15\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 11/15"
+  },
+  {
+   "tip": "t9",
+   "soru": "ödevim var 8(x+44)=4(x+51) bunu çözer misin lütfen",
+   "beklenen": "-37",
+   "model": "-37",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "8x + 13 = 8x - 39 denkleminde x kaçtır?",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t7",
+   "soru": "Şu denklemi adım adım çözer misin? -2(x + 5)=-34",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 56 = 55 için x değerini hesapla.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "solve 6x - 47 = 30",
+   "beklenen": "77/6",
+   "model": "77/6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "2x - 55 = 11x - 28 denkleminin kökü nedir?",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "z-49=-36 denklemini çöz.",
+   "beklenen": "13",
+   "model": "13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "solve 2a+5=-9",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "bunu çözer misin 10x - 55 = 3x + 22",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Denklemi çöz: 5x − 3 − 8x + 39 = −15",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "n için çöz: 6(n - 11) = 12n - 18",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Elif 12 yıl sonra 23 yaşında olacak. Elif şimdi kaç yaşındadır?",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "6x - 34=5x - 18 ise x?",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "8x+14=12x-30 denkleminin çözümünü adım adım göster.",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x/5 + x/10 = 6 denkleminde x kaçtır?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "Şu denklemi adım adım çözer misin? m/5+m/10=6",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "38 + 10x = -232 denkleminde x kaçtır?",
+   "beklenen": "-27",
+   "model": "-27",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "8x+1-5x+15=-20 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4t = -40 çöz",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "m'yi bul: 4m = -40",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4x=-40 ise x kaçtır?",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "8x - 27 + 5x = -49 + 3x + 52 denkleminin kökü nedir?",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "2x+20=12x-51 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "71/10",
+   "model": "71/10",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 2x + 20 = 12x - 51\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 12x çıkaralım.\n2x - 12x + 20 = -51\n-10x + 20 = -51\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 20 çıkaralım.\n-10x = -51 - 20\n-10x = -71\n\n3. adım: Her iki tarafı -10'a bölelim.\nx = -71/(-10)\nx = 71/10\n\nSağlama: x = 71/10 değerini ilk denklemde yerine koyalım.\nSol taraf: 2·(71/10) + 20 = 71/5 + 20 = 191/5\nSağ taraf: 12·(71/10) - 51 = 426/5 - 51 = 191/5\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 71/10"
+  },
+  {
+   "tip": "t2",
+   "soru": "2a = 2 denkleminin çözüm kümesi nedir?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "2x = 2 için x değerini hesapla.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "2n=2 ise n?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "9x - 45 = -3x + 39 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "9(x+53)=3(x+295) çöz",
+   "beklenen": "68",
+   "model": "68",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Adım adım çöz: 9*n + 47 = 3*n + 48",
+   "beklenen": "1/6",
+   "model": "1/6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Adım adım çöz: 4x + 25 = -58",
+   "beklenen": "-83/4",
+   "model": "-83/4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık üç tam sayının toplamı 12. Küçük sayı kaçtır?",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki çift sayının toplamı 82. Küçük çift sayı kaçtır?",
+   "beklenen": "40",
+   "model": "40",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "37 - 12*x = -23 - 2*x denklemini çöz.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-3a + 31 = 32",
+   "beklenen": "-1/3",
+   "model": "-1/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "bunu çözer misin -9(x + 57) = 265",
+   "beklenen": "-778/9",
+   "model": "-778/9",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -9(x + 57) = 265\n\n1. adım: Parantezleri açalım (dağılma özelliği): -9·x = -9x, -9·57 = -513.\n-9x - 513 = 265\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 513 ekleyelim.\n-9x = 265 + 513\n-9x = 778\n\n3. adım: Her iki tarafı -9'a bölelim.\nx = 778/(-9)\nx = -778/9\n\nSağlama: x = -778/9 değerini ilk denklemde yerine koyalım.\nSol taraf: -9·(-778/9 + 57) = -9·(265/9) = -265\nSağ taraf: 265\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -778/9"
+  },
+  {
+   "tip": "t16",
+   "soru": "Şu denklemi adım adım çözer misin? -7x+48+6x=8x-x+16",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "Şu denklemi adım adım çözer misin? x/5 - 262 = -281",
+   "beklenen": "-95",
+   "model": "-95",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "3*x - 1 - 7*x - 45 = -30 denklemini çöz.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "ödevim var 9b - 25 = -7b - 6 bunu çözer misin lütfen",
+   "beklenen": "19/16",
+   "model": "19/16",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 9b - 25 = -7b - 6\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 7b ekleyelim.\n9b + 7b - 25 = -6\n16b - 25 = -6\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 25 ekleyelim.\n16b = -6 + 25\n16b = 19\n\n3. adım: Her iki tarafı 16'ya bölelim.\nb = 19/16\n\nSağlama: b = 19/16 değerini ilk denklemde yerine koyalım.\nSol taraf: 9·(19/16) - 25 = 171/16 - 25 = -181/16\nSağ taraf: -7·(19/16) - 6 = -133/16 - 6 = -181/16\nİki taraf eşit, çözüm doğru.\n\nSonuç: b = 19/16"
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "-9*(a + 29) = -9*a + 178 ise a?",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t13",
+   "soru": "-7x - 8 = 43 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-51/7",
+   "model": "-51/7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "44 + 10x = 7x + 26 denkleminde x kaçtır?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "3*x - 56 - 12*x = 25 denkleminin kökü nedir?",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Çöz bakalım: -9x+53=8x-41",
+   "beklenen": "94/17",
+   "model": "94/17",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -9x + 53 = 8x - 41\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 8x çıkaralım.\n-9x - 8x + 53 = -41\n-17x + 53 = -41\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 53 çıkaralım.\n-17x = -41 - 53\n-17x = -94\n\n3. adım: Her iki tarafı -17'ye bölelim.\nx = -94/(-17)\nx = 94/17\n\nSağlama: x = 94/17 değerini ilk denklemde yerine koyalım.\nSol taraf: -9·(94/17) + 53 = -846/17 + 53 = -109/17\nSağ taraf: 8·(94/17) - 41 = 752/17 - 41 = -109/17\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 94/17"
+  },
+  {
+   "tip": "t14",
+   "soru": "x/12 + x/3 = -5 denkleminde x kaçtır?",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(x + 3) = 57 için x değerini hesapla.",
+   "beklenen": "13/2",
+   "model": "13/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/2 = -3 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "z/2 = -3 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/2 = -3 ise y kaçtır?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "t'yi bul: t/2 = -3",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Çöz bakalım: n/2 = -3",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "ödevim var b/2 = -3 bunu çözer misin lütfen",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 183 = 96 çöz",
+   "beklenen": "-87",
+   "model": "-87",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "x'i bul: −12x + 35 = 15",
+   "beklenen": "5/3",
+   "model": "5/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4Z = -44 denkleminin kökü nedir?",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "4x = -44 çöz",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "-56=11x+32 denkleminde x kaçtır?",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "10x = -20 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "n'yi bul: 10n = -20",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "10z = −20 için z değerini hesapla.",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "9x - 56 = 6x - 45 denkleminin kökü nedir?",
+   "beklenen": "11/3",
+   "model": "11/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "-60 + 6x = 36 için x değerini hesapla.",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "ödevim var 10*(x - 19) = 2*(x - 51) bunu çözer misin lütfen",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3n = -114 için n değerini hesapla.",
+   "beklenen": "-38",
+   "model": "-38",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "9x - 60=2x - 23 bu denklemin çözümü nedir",
+   "beklenen": "37/7",
+   "model": "37/7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 9x - 60 = 2x - 23\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n9x - 2x - 60 = -23\n7x - 60 = -23\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 60 ekleyelim.\n7x = -23 + 60\n7x = 37\n\n3. adım: Her iki tarafı 7'ye bölelim.\nx = 37/7\n\nSağlama: x = 37/7 değerini ilk denklemde yerine koyalım.\nSol taraf: 9·(37/7) - 60 = 333/7 - 60 = -183/7\nSağ taraf: 2·(37/7) - 23 = 74/7 - 23 = -183/7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 37/7"
+  },
+  {
+   "tip": "t5",
+   "soru": "-52 + 11*a = -30",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Denklemi çöz: 3z - 14 = 40",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "5 - 2x = -15 + 2x denkleminin kökü nedir?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "Şu denklemi adım adım çözer misin? -11*(x + 3) = -11*x - 33",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t6",
+   "soru": "11*x + 42 = 5*x - 38",
+   "beklenen": "-40/3",
+   "model": "-40/3",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 11x + 42 = 5x - 38\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 5x çıkaralım.\n11x - 5x + 42 = -38\n6x + 42 = -38\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 42 çıkaralım.\n6x = -38 - 42\n6x = -80\n\n3. adım: Her iki tarafı 6'ya bölelim.\nx = -80/6\nx = -40/3 (pay ve payda 2 ile sadeleşti)\n\nSağlama: x = -40/3 değerini ilk denklemde yerine koyalım.\nSol taraf: 11·(-40/3) + 42 = -440/3 + 42 = -302/3\nSağ taraf: 5·(-40/3) - 38 = -200/3 - 38 = -302/3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -40/3"
+  },
+  {
+   "tip": "t4",
+   "soru": "Denklemi çöz: 4x - 15 = 45",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ayşe'nin yaşının 10 katının 11 fazlası 721 ediyor. Ayşe kaç yaşındadır?",
+   "beklenen": "71",
+   "model": "71",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/3 = 1",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Merhaba, şu denklemde takıldım: t/3 = 1. Yardım eder misin?",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/3 = 1",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "z/3=1 için z değerini hesapla.",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-55 + x = -18 + 12x denkleminin çözüm kümesi nedir?",
+   "beklenen": "-37/11",
+   "model": "-37/11",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -55 + x = -18 + 12x\n\n1. adım: Terimleri düzenleyelim.\nx - 55 = 12x - 18\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 12x çıkaralım.\nx - 12x - 55 = -18\n-11x - 55 = -18\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 55 ekleyelim.\n-11x = -18 + 55\n-11x = 37\n\n4. adım: Her iki tarafı -11'e bölelim.\nx = 37/(-11)\nx = -37/11\n\nSağlama: x = -37/11 değerini ilk denklemde yerine koyalım.\nSol taraf: -55 + (-37/11) = -55 - 37/11 = -602/11\nSağ taraf: -18 + 12·(-37/11) = -18 - 444/11 = -602/11\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -37/11"
+  },
+  {
+   "tip": "t1",
+   "soru": "n-40=-28 bu denklemin çözümü nedir",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Şu denklemi adım adım çözer misin? 8x + 18 = -10x - 54",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Merhaba, şu denklemde takıldım: 5x + 23 + 3x = 47. Yardım eder misin?",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12x-56=5x+46 denkleminin çözüm kümesi nedir?",
+   "beklenen": "102/7",
+   "model": "102/7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 12x - 56 = 5x + 46\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 5x çıkaralım.\n12x - 5x - 56 = 46\n7x - 56 = 46\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 56 ekleyelim.\n7x = 46 + 56\n7x = 102\n\n3. adım: Her iki tarafı 7'ye bölelim.\nx = 102/7\n\nSağlama: x = 102/7 değerini ilk denklemde yerine koyalım.\nSol taraf: 12·(102/7) - 56 = 1224/7 - 56 = 896/7\nSağ taraf: 5·(102/7) + 46 = 510/7 + 46 = 896/7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 102/7"
+  },
+  {
+   "tip": "t16",
+   "soru": "Şu denklemi adım adım çözer misin? 14 - 2x - 5x + 14 = -x + 34 - 48",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 14 - 2x - 5x + 14 = -x + 34 - 48\n\n1. adım: Benzer terimleri birleştirelim: -2x - 5x = -7x, 14 + 14 = 28, 34 - 48 = -14.\n-7x + 28 = -x - 14\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa x ekleyelim.\n-7x + x + 28 = -14\n-6x + 28 = -14\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 28 çıkaralım.\n-6x = -14 - 28\n-6x = -42\n\n4. adım: Her iki tarafı -6'ya bölelim.\nx = -42/(-6)\nx = 7 (çünkü -6·7 = -42)\n\nSağlama: x = 7 değerini ilk denklemde yerine koyalım.\nSol taraf: 14 - 2·7 - 5·7 + 14 = 14 - 14 - 35 + 14 = -17\nSağ taraf: -7 + 34 - 48 = -17\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 7"
+  },
+  {
+   "tip": "t16",
+   "soru": "ödevim var 5X - 40 - 19 = X - 2X + 37 bunu çözer misin lütfen",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 5 katından 21 çıkarılınca sonuç 39 oluyor. Bu sayı kaçtır?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? x/3=-14",
+   "beklenen": "-42",
+   "model": "-42",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "3(x + 9) = 42 denkleminde x kaçtır?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "4x + 13 = 25 bu denklemin çözümü nedir",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "6x+44=-34 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/2=-2 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x'i bul: x/2=-2",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "z/2 = -2 denkleminin kökü nedir?",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "t/2 = -2 çöz",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/2=-2 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "7(a-5)+29=-48 eşitliğini sağlayan a değerini bul.",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "-32 = 5x + 38 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "t'yi bul: 56 - 7*t + 9*t = t - 4*t + 11",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 56 - 7t + 9t = t - 4t + 11\n\n1. adım: Benzer terimleri birleştirelim: -7t + 9t = 2t, t - 4t = -3t.\n2t + 56 = -3t + 11\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 3t ekleyelim.\n2t + 3t + 56 = 11\n5t + 56 = 11\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 56 çıkaralım.\n5t = 11 - 56\n5t = -45\n\n4. adım: Her iki tarafı 5'e bölelim.\nt = -45/5\nt = -9 (çünkü 5·(-9) = -45)\n\nSağlama: t = -9 değerini ilk denklemde yerine koyalım.\nSol taraf: 56 - 7·(-9) + 9·(-9) = 56 + 63 - 81 = 18\nSağ taraf: -9 - 4·(-9) + 11 = -9 + 36 + 11 = 18\nİki taraf eşit, çözüm doğru.\n\nSonuç: t = -9"
+  },
+  {
+   "tip": "t6",
+   "soru": "Merhaba, şu denklemde takıldım: 8*x + 37 = -5*x + 30. Yardım eder misin?",
+   "beklenen": "-7/13",
+   "model": "-7/13",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 8x + 37 = -5x + 30\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 5x ekleyelim.\n8x + 5x + 37 = 30\n13x + 37 = 30\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 37 çıkaralım.\n13x = 30 - 37\n13x = -7\n\n3. adım: Her iki tarafı 13'e bölelim.\nx = -7/13\n\nSağlama: x = -7/13 değerini ilk denklemde yerine koyalım.\nSol taraf: 8·(-7/13) + 37 = -56/13 + 37 = 419/13\nSağ taraf: -5·(-7/13) + 30 = 35/13 + 30 = 419/13\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -7/13"
+  },
+  {
+   "tip": "t4",
+   "soru": "9x + 40 = -23 denkleminin kökü nedir?",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Adım adım çöz: 9a + 40 = -23",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "ödevim var 32=4x-44 bunu çözer misin lütfen",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "(m + 5)/10 = 2 denkleminin çözümünü adım adım göster.",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "ödevim var (x - 9)/10 = -1 bunu çözer misin lütfen",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Adım adım çöz: -10x = -60",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "10(x + 19) = 40 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "solve x - 50 = -60",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "Adım adım çöz: 7*x/11 + 1 = 8",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "8n+13=9n+24 denkleminde n kaçtır?",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "x/4 = -7 denkleminin kökü nedir?",
+   "beklenen": "-28",
+   "model": "-28",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "8(m - 15) = -24 ise m?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "Merhaba, şu denklemde takıldım: 4(x - 11) = 8(x - 14). Yardım eder misin?",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki tam sayının toplamı 25. Küçük sayı kaçtır?",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/7+26=24",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "solve 12*(x - 3) + 37 = 12*x + 1",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "12z+33=16 çöz",
+   "beklenen": "-17/12",
+   "model": "-17/12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Şu denklemi adım adım çözer misin? 8x + 22 = 11x + 16",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "2x+4+3x=44",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "ödevim var 10(x - 17) + 21 = -59 bunu çözer misin lütfen",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "x'i bul: 3x+40=9x-59",
+   "beklenen": "33/2",
+   "model": "33/2",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 3x + 40 = 9x - 59\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 9x çıkaralım.\n3x - 9x + 40 = -59\n-6x + 40 = -59\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 40 çıkaralım.\n-6x = -59 - 40\n-6x = -99\n\n3. adım: Her iki tarafı -6'ya bölelim.\nx = -99/(-6)\nx = 33/2 (pay ve payda 3 ile sadeleşti)\n\nSağlama: x = 33/2 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·(33/2) + 40 = 99/2 + 40 = 271/2\nSağ taraf: 9·(33/2) - 59 = 297/2 - 59 = 271/2\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 33/2"
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 39 = 28 denklemini çöz.",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/3 = 17 denklemini çözüp sağlamasını yap.",
+   "beklenen": "51",
+   "model": "51",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Denklemi çöz: 5x - 40 = 7x - 20",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Çöz bakalım: 11y + 59 = 9y + 37",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "6(x+16)=-7(x+3) denkleminin çözümünü adım adım göster.",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "3t-5+41=1+47+6t denkleminin çözüm kümesi nedir?",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "18-5x-6x=-8x+14-5x denkleminde x kaçtır?",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "Şu denklemi adım adım çözer misin? -7x-60=38",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "solve -11x-14=-58",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "x'i bul: 5*x = 40",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "5n=40 ise n kaçtır?",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "Denklemi çöz: 4(n - 13) + 44 = -44",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/4-39=-40 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "28 = 7x + 7 denkleminin çözümünü adım adım göster.",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "Çöz bakalım: 20 = 10x + 50",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 34 = 52",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Burak'ın parasının 5 katının 1 TL fazlası 91 TL ediyor. Burak'ın kaç TL'si vardır?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "9b+29=7b+6 bu denklemin çözümü nedir",
+   "beklenen": "-23/2",
+   "model": "-23/2",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 9b + 29 = 7b + 6\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 7b çıkaralım.\n9b - 7b + 29 = 6\n2b + 29 = 6\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 29 çıkaralım.\n2b = 6 - 29\n2b = -23\n\n3. adım: Her iki tarafı 2'ye bölelim.\nb = -23/2\n\nSağlama: b = -23/2 değerini ilk denklemde yerine koyalım.\nSol taraf: 9·(-23/2) + 29 = -207/2 + 29 = -155/2\nSağ taraf: 7·(-23/2) + 6 = -161/2 + 6 = -155/2\nİki taraf eşit, çözüm doğru.\n\nSonuç: b = -23/2"
+  },
+  {
+   "tip": "t5",
+   "soru": "35 + 9x = 8 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "10x+15+8x=-3 denklemini çöz.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının 2 katının 15 eksiği 59 eder?",
+   "beklenen": "37",
+   "model": "37",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "7x - 7 = 6x + 10 denklemini çöz.",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "5(x+16)+113=-17",
+   "beklenen": "-42",
+   "model": "-42",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "8x + 59 = 10x + 27 denklemini çöz.",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "solve 3x + 35 = -7",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının 8 katının 37 eksiği 91 eder?",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "10(X - 5) = -2(X - 11) denkleminin çözümünü adım adım göster.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "10x - 54 + 2x = 12x - 54 ise x?",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t6",
+   "soru": "12x-12=2x-60",
+   "beklenen": "-24/5",
+   "model": "-24/5",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 12x - 12 = 2x - 60\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n12x - 2x - 12 = -60\n10x - 12 = -60\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 12 ekleyelim.\n10x = -60 + 12\n10x = -48\n\n3. adım: Her iki tarafı 10'a bölelim.\nx = -48/10\nx = -24/5 (pay ve payda 2 ile sadeleşti)\n\nSağlama: x = -24/5 değerini ilk denklemde yerine koyalım.\nSol taraf: 12·(-24/5) - 12 = -288/5 - 12 = -372/5\nSağ taraf: 2·(-24/5) - 60 = -48/5 - 60 = -372/5\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -24/5"
+  },
+  {
+   "tip": "t2",
+   "soru": "Şu denklemi adım adım çözer misin? 2n=18",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Merhaba, şu denklemde takıldım: 2z=18. Yardım eder misin?",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "2x = 18 için x değerini hesapla.",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3x - 34 = 11 bu denklemin çözümü nedir",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "2x + 30 = -2x + 6 denkleminde x kaçtır?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "3(x - 15) = 6(x - 7)",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(x + 6)=-36 bu denklemin çözümü nedir",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t11",
+   "soru": "(x+2)/4=4 ise x kaçtır?",
+   "beklenen": "14",
+   "model": "14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "2(x + 5) = 40 denkleminin çözümünü adım adım göster.",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "4*(x + 16) = -21 bu denklemin çözümü nedir",
+   "beklenen": "-85/4",
+   "model": "-85/4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-32-5x=19-8x denkleminin kökü nedir?",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "2(x + 10) = 40 denkleminin çözüm kümesi nedir?",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "2x+7=20 çöz",
+   "beklenen": "13/2",
+   "model": "13/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "x'i bul: 6x + 19 = -47",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "Adım adım çöz: 11x + 23 = -43",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "bunu çözer misin -52 = 2y - 32",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "11x + 58 - 7x = 54 ise x?",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "5*X - 32 - 8*X + 39 = 46 denklemini çöz.",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "y için çöz: y/12 + 5 = 6",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/12 + 5 = 6 bu denklemin çözümü nedir",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x için çöz: x - 39 = -47",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "Denklemi çöz: -48 + 47 - 3a = -50 - 8a + 29",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -48 + 47 - 3a = -50 - 8a + 29\n\n1. adım: Benzer terimleri birleştirelim: -48 + 47 = -1, -50 + 29 = -21.\n-3a - 1 = -8a - 21\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 8a ekleyelim.\n-3a + 8a - 1 = -21\n5a - 1 = -21\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 1 ekleyelim.\n5a = -21 + 1\n5a = -20\n\n4. adım: Her iki tarafı 5'e bölelim.\na = -20/5\na = -4 (çünkü 5·(-4) = -20)\n\nSağlama: a = -4 değerini ilk denklemde yerine koyalım.\nSol taraf: -48 + 47 - 3·(-4) = -48 + 47 + 12 = -9\nSağ taraf: -50 - 8·(-4) + 29 = -50 + 32 + 29 = -9\nİki taraf eşit, çözüm doğru.\n\nSonuç: a = -4"
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "7x + 47 + 12x = 19x + 39 ise x?",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t5",
+   "soru": "Merhaba, şu denklemde takıldım: 26 = 2x + 42. Yardım eder misin?",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "9y - 25 = 11y - 47 denkleminin çözümünü adım adım göster.",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "2(x + 2) = -3(x - 33) denkleminde x kaçtır?",
+   "beklenen": "19",
+   "model": "19",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "Adım adım çöz: x - 27 = -33",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "Denklemi çöz: x/7 + x/4 = -11",
+   "beklenen": "-28",
+   "model": "-28",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x'i bul: x-32=-119",
+   "beklenen": "-87",
+   "model": "-87",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-51 - 12x = 1 + x çöz",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "Adım adım çöz: 57 - 2x = 21",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "7x + 26 = 10x + 51 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-25/3",
+   "model": "-25/3",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 7x + 26 = 10x + 51\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 10x çıkaralım.\n7x - 10x + 26 = 51\n-3x + 26 = 51\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 26 çıkaralım.\n-3x = 51 - 26\n-3x = 25\n\n3. adım: Her iki tarafı -3'e bölelim.\nx = 25/(-3)\nx = -25/3\n\nSağlama: x = -25/3 değerini ilk denklemde yerine koyalım.\nSol taraf: 7·(-25/3) + 26 = -175/3 + 26 = -119/3\nSağ taraf: 10·(-25/3) + 51 = -250/3 + 51 = -119/3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -25/3"
+  },
+  {
+   "tip": "t5",
+   "soru": "32 + 9x = 59 çöz",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-11(x + 15) = 25 ise x kaçtır?",
+   "beklenen": "-190/11",
+   "model": "-190/11",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -11(x + 15) = 25\n\n1. adım: Parantezleri açalım (dağılma özelliği): -11·x = -11x, -11·15 = -165.\n-11x - 165 = 25\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 165 ekleyelim.\n-11x = 25 + 165\n-11x = 190\n\n3. adım: Her iki tarafı -11'e bölelim.\nx = 190/(-11)\nx = -190/11\n\nSağlama: x = -190/11 değerini ilk denklemde yerine koyalım.\nSol taraf: -11·(-190/11 + 15) = -11·(25/11) = -25\nSağ taraf: 25\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -190/11"
+  },
+  {
+   "tip": "t9",
+   "soru": "3(z+14)=5(z+8) ise z kaçtır?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "6+2x=38",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "7x+35=15 çöz",
+   "beklenen": "-20/7",
+   "model": "-20/7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-4(x - 18) = 52 ise x?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "X + 26=19 ise X kaçtır?",
+   "beklenen": "-7",
+   "model": "-7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "a'yı bul: 6(a-18)=6a-15",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t5",
+   "soru": "ödevim var 31 = 5z + 91 bunu çözer misin lütfen",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ayşe'nin yaşının 9 katı 45 ise Ayşe kaç yaşındadır?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "x için çöz: 10x+7=10x+40",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "x için çöz: 6x+21=-9",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "m/2 = 10 denklemini çöz.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Z/2 = 10 denklemini çöz.",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "bunu çözer misin n/2=10",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/2 = 10 çöz",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Şu denklemi adım adım çözer misin? x/2 = 10",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Adım adım çöz: 4 - 3x = -20 - 7x",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t16",
+   "soru": "bunu çözer misin -33 - 15 - 8x = -8 + x + x",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Merhaba, şu denklemde takıldım: 29 + 5x = 2 - 4x. Yardım eder misin?",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayının 2 katına 44 eklenince sonuç 86 oluyor. Bu sayı kaçtır?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "8x - 26 = -49 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-23/8",
+   "model": "-23/8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-8x - 24 = 5x - 37 denkleminin kökü nedir?",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t14",
+   "soru": "x için çöz: x/2 + x/6 = 2",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "Çöz bakalım: 3x + 9 - 2x + 20 = 27",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "Şu denklemi adım adım çözer misin? 7x + 47 = 2x + 17",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "57 + 5n = 12 ise n kaçtır?",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-3*x + 1 = 54 için x değerini hesapla.",
+   "beklenen": "-53/3",
+   "model": "-53/3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "Çöz bakalım: -8(m + 9) = 8(m - 141)",
+   "beklenen": "66",
+   "model": "66",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "x için çöz: 3(x + 2) = -18",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Deniz 16 yıl sonra 36 yaşında olacak. Deniz şimdi kaç yaşındadır?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "b/6=1 ise b?",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Denklemi çöz: m/6=1",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "n/6=1 denklemini çöz.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "y/6 = 1 denkleminin çözümünü adım adım göster.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Denklemi çöz: x/6 = 1",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "a/6=1 ise a kaçtır?",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t3",
+   "soru": "Adım adım çöz: z/6 = 1",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "10(X-5)=-10(X-3) denkleminde X kaçtır?",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "-8(n + 16) = 12n + 32 ise n?",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "11x + 38 = 4 için x değerini hesapla.",
+   "beklenen": "-34/11",
+   "model": "-34/11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "x'i bul: -4(x+18)+16=-44",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "x'i bul: 7(x + 10) = -9",
+   "beklenen": "-79/7",
+   "model": "-79/7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "2x - 33 - 7x + 12 = 49 ise x?",
+   "beklenen": "-14",
+   "model": "-14",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "7t/9 + 125 = 174 denkleminin çözüm kümesi nedir?",
+   "beklenen": "63",
+   "model": "63",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "−47 + 6x = 55 denkleminin kökü nedir?",
+   "beklenen": "17",
+   "model": "17",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t13",
+   "soru": "-28 - 5x = 2 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-6",
+   "model": "-6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "x için çöz: 10x - 20 = 10x - 25",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "2a - 40 = -48 eşitliğini sağlayan a değerini bul.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "10x + 7 = 4x + 20 bu denklemin çözümü nedir",
+   "beklenen": "13/6",
+   "model": "13/6",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: 10x + 7 = 4x + 20\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 4x çıkaralım.\n10x - 4x + 7 = 20\n6x + 7 = 20\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 7 çıkaralım.\n6x = 20 - 7\n6x = 13\n\n3. adım: Her iki tarafı 6'ya bölelim.\nx = 13/6\n\nSağlama: x = 13/6 değerini ilk denklemde yerine koyalım.\nSol taraf: 10·(13/6) + 7 = 65/3 + 7 = 80/3\nSağ taraf: 4·(13/6) + 20 = 26/3 + 20 = 80/3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 13/6"
+  },
+  {
+   "tip": "t4",
+   "soru": "4*x + 32 = 28 denkleminin çözümünü adım adım göster.",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12x-60=7x+40 ise x kaçtır?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "3x=-15 ise x kaçtır?",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t2",
+   "soru": "Şu denklemi adım adım çözer misin? 3a = -15",
+   "beklenen": "-5",
+   "model": "-5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "12x + 2 = 7x + 42 denkleminin çözüm kümesi nedir?",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "solve -53 - x = -41 - 3x",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "ödevim var 5(x + 6) = 6x + 25 bunu çözer misin lütfen",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "7*x + 37 = 16 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-3",
+   "model": "-3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "6(x - 4) = -48 denklemini çözüp sağlamasını yap.",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Ardışık iki tam sayının toplamı 21 ediyor. Büyük sayı kaçtır?",
+   "beklenen": "11",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "8*(x + 27) - 115 = 277 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "22",
+   "model": "22",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-9(m + 8) = -36 çöz",
+   "beklenen": "-4",
+   "model": "-4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/7 - 30 = -29 çöz",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "3z/5 - 24 = -33 denkleminin çözüm kümesi nedir?",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 17 = 27",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "5m/6 - 26 = -11 denkleminin çözüm kümesi nedir?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "-11(x + 7) = 33 için x değerini hesapla.",
+   "beklenen": "-10",
+   "model": "-10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "x/2-23=-22 denklemini çözüp sağlamasını yap.",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Şu denklemi adım adım çözer misin? -52+5x=-5x+58",
+   "beklenen": "11",
+   "model": "11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t12",
+   "soru": "12x-19-6x-12=-7 bu denklemin çözümü nedir",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Şu denklemi adım adım çözer misin? -31 + 4x = 9x + 9",
+   "beklenen": "-8",
+   "model": "-8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t7",
+   "soru": "Çöz bakalım: 7(x-12)=42",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "8(b - 19) = 10(b - 16) denklemini çözüp sağlamasını yap.",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "10(x-6)=11x-58 için x değerini hesapla.",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "-39 - 4x = 3x + 38 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-11",
+   "model": "-11",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "4x - 15 = 49",
+   "beklenen": "16",
+   "model": "16",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t9",
+   "soru": "Şu denklemi adım adım çözer misin? -7(x-1)=-10(x+2)",
+   "beklenen": "-9",
+   "model": "-9",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Hangi sayının üçte birinin 8 eksiği 3 eder?",
+   "beklenen": "33",
+   "model": "33",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "4(x-9)+42=54 denkleminin çözümünü adım adım göster.",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "6 + 4*z = 21 + 3*z",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "x için çöz: -10x+23=10x-18",
+   "beklenen": "41/20",
+   "model": "41/20",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -10x + 23 = 10x - 18\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 10x çıkaralım.\n-10x - 10x + 23 = -18\n-20x + 23 = -18\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 23 çıkaralım.\n-20x = -18 - 23\n-20x = -41\n\n3. adım: Her iki tarafı -20'ye bölelim.\nx = -41/(-20)\nx = 41/20\n\nSağlama: x = 41/20 değerini ilk denklemde yerine koyalım.\nSol taraf: -10·(41/20) + 23 = -41/2 + 23 = 15/2\nSağ taraf: 10·(41/20) - 18 = 41/2 - 18 = 15/2\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 41/20"
+  },
+  {
+   "tip": "t4",
+   "soru": "4x - 33 = -41 çöz",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x - 36 = -30 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "2z/7 - 1 = 1 denkleminde z kaçtır?",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "42 + 4x = -6",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Merhaba, şu denklemde takıldım: -3-6x=27-9x. Yardım eder misin?",
+   "beklenen": "10",
+   "model": "10",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t6",
+   "soru": "-10*x - 44 = -4*x + 19 için x değerini hesapla.",
+   "beklenen": "-21/2",
+   "model": "-21/2",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "57 = 8x + 17 denkleminin çözüm kümesi nedir?",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayıya 3 eklenip sonuç 2 ile çarpılınca 36 elde ediliyor. Bu sayı kaçtır?",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t8",
+   "soru": "Çöz bakalım: -10(x - 7) + 51 = 41",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t4",
+   "soru": "3n + 28=-17 çöz",
+   "beklenen": "-15",
+   "model": "-15",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "ozel_yok",
+   "soru": "ödevim var -2(x-9)=-2x-59 bunu çözer misin lütfen",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "ozel_sonsuz",
+   "soru": "bunu çözer misin 6x+54=6(x+9)",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": null
+  },
+  {
+   "tip": "t4",
+   "soru": "x'i bul: 10x+20=10",
+   "beklenen": "-1",
+   "model": "-1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "5 - 6x = 7 - 8x denklemini çözüp sağlamasını yap.",
+   "beklenen": "1",
+   "model": "1",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "sozel",
+   "soru": "Can 8 yıl sonra 26 yaşında olacak. Can şimdi kaç yaşındadır?",
+   "beklenen": "18",
+   "model": "18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t5",
+   "soru": "solve -3 = 11*x - 36",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t15",
+   "soru": "Merhaba, şu denklemde takıldım: -54 - x = -38 - 4x. Yardım eder misin?",
+   "beklenen": "16/3",
+   "model": "16/3",
+   "cevap_dogru": true,
+   "tam_eslesme": false,
+   "bozuk_satir": [],
+   "saglama_dogru": false,
+   "uretilen": "Denklem: -54 - x = -38 - 4x\n\n1. adım: Terimleri düzenleyelim.\n-x - 54 = -4x - 38\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 4x ekleyelim.\n-x + 4x - 54 = -38\n3x - 54 = -38\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 54 ekleyelim.\n3x = -38 + 54\n3x = 16\n\n4. adım: Her iki tarafı 3'e bölelim.\nx = 16/3\n\nSağlama: x = 16/3 değerini ilk denklemde yerine koyalım.\nSol taraf: -54 - (16/3) = -54 - 16/3 = -172/3\nSağ taraf: -38 - 4·(16/3) = -38 - 64/3 = -172/3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 16/3"
+  },
+  {
+   "tip": "sozel",
+   "soru": "Bir sayıya 13 eklenip sonuç 2 ile çarpılınca 34 elde ediliyor. Bu sayı kaçtır?",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t1",
+   "soru": "x + 25 = 12 eşitliğini sağlayan x değerini bul.",
+   "beklenen": "-13",
+   "model": "-13",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  },
+  {
+   "tip": "t10",
+   "soru": "bunu çözer misin 2x/3-141=-153",
+   "beklenen": "-18",
+   "model": "-18",
+   "cevap_dogru": true,
+   "tam_eslesme": true,
+   "bozuk_satir": [],
+   "saglama_dogru": true
+  }
+ ],
+ "ood": [
+  {
+   "soru": "2x+3=7 ise x?",
+   "beklenen": "2",
+   "model": "2",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 2x + 3 = 7\n\n1. adım: Sabit terimi sağa geçirmek için her iki taraftan 3 çıkaralım.\n2x = 7 - 3\n2x = 4\n\n2. adım: Her iki tarafı 2'ye bölelim.\nx = 4/2\nx = 2 (çünkü 2·2 = 4)\n\nSağlama: x = 2 değerini ilk denklemde yerine koyalım.\nSol taraf: 2·2 + 3 = 4 + 3 = 7\nSağ taraf: 7\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 2"
+  },
+  {
+   "soru": "x için çöz: 4(x-1)=2x+6",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 4(x - 1) = 2x + 6\n\n1. adım: Parantezleri açalım (dağılma özelliği): 4·x = 4x, 4·(-1) = -4.\n4x - 4 = 2x + 6\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n4x - 2x - 4 = 6\n2x - 4 = 6\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 4 ekleyelim.\n2x = 6 + 4\n2x = 10\n\n4. adım: Her iki tarafı 2'ye bölelim.\nx = 10/2\nx = 5 (çünkü 2·5 = 10)\n\nSağlama: x = 5 değerini ilk denklemde yerine koyalım.\nSol taraf: 4·(5 - 1) = 4·4 = 16\nSağ taraf: 2·5 + 6 = 10 + 6 = 16\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 5"
+  },
+  {
+   "soru": "5 = x - 3 ise x kaç",
+   "beklenen": "8",
+   "model": "8",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 5 = x - 3\n\n1. adım: Bilinmeyen sağ tarafta; tarafların yerini değiştirelim.\nx - 3 = 5\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 3 ekleyelim.\nx = 5 + 3\nx = 8\n\nSağlama: x = 8 değerini ilk denklemde yerine koyalım.\nSol taraf: 5\nSağ taraf: 8 - 3 = 5\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 8"
+  },
+  {
+   "soru": "Merhaba, şu denklemde takıldım: 7x - 4 = 3x + 12. Yardım eder misin?",
+   "beklenen": "4",
+   "model": "4",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 7x - 4 = 3x + 12\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 3x çıkaralım.\n7x - 3x - 4 = 12\n4x - 4 = 12\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 4 ekleyelim.\n4x = 12 + 4\n4x = 16\n\n3. adım: Her iki tarafı 4'e bölelim.\nx = 16/4\nx = 4 (çünkü 4·4 = 16)\n\nSağlama: x = 4 değerini ilk denklemde yerine koyalım.\nSol taraf: 7·4 - 4 = 28 - 4 = 24\nSağ taraf: 3·4 + 12 = 12 + 12 = 24\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 4"
+  },
+  {
+   "soru": "3X + 6 = 0",
+   "beklenen": "-2",
+   "model": "-2",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 3x + 6 = 0\n\n1. adım: Sabit terimi sağa geçirmek için her iki taraftan 6 çıkaralım.\n3x = 0 - 6\n3x = -6\n\n2. adım: Her iki tarafı 3'e bölelim.\nx = -6/3\nx = -2 (çünkü 3·(-2) = -6)\n\nSağlama: x = -2 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·(-2) + 6 = -6 + 6 = 0\nSağ taraf: 0\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -2"
+  },
+  {
+   "soru": "ödevim var 2(3x+1)=4(x+2) bunu çözer misin lütfen",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 2(3x + 1) = 4(x + 2)\n\n1. adım: Parantezleri açalım (dağılma özelliği): 2·3x = 6x, 2·1 = 2, 4·x = 4x, 4·2 = 8.\n6x + 2 = 4x + 8\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 4x çıkaralım.\n6x - 4x + 2 = 8\n2x + 2 = 8\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 2 çıkaralım.\n2x = 8 - 2\n2x = 6\n\n4. adım: Her iki tarafı 2'ye bölelim.\nx = 6/2\nx = 3 (çünkü 2·3 = 6)\n\nSağlama: x = 3 değerini ilk denklemde yerine koyalım.\nSol taraf: 2·(3·3 + 1) = 2·(9 + 1) = 2·10 = 20\nSağ taraf: 4·(3 + 2) = 4·5 = 20\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 3"
+  },
+  {
+   "soru": "x/5 - 1 = 3 denkleminin kökü nedir?",
+   "beklenen": "20",
+   "model": "20",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: x/5 - 1 = 3\n\n1. adım: Paydalardan kurtulmak için her iki tarafı 5 ile çarpalım: 5·(x/5) = x, 5·(-1) = -5, 5·3 = 15.\nx - 5 = 15\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 5 ekleyelim.\nx = 15 + 5\nx = 20\n\nSağlama: x = 20 değerini ilk denklemde yerine koyalım.\nSol taraf: 20/5 - 1 = 4 - 1 = 3\nSağ taraf: 3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 20"
+  },
+  {
+   "soru": "10 - 2x = 4x - 8 için x değerini hesapla.",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 10 - 2x = 4x - 8\n\n1. adım: Terimleri düzenleyelim.\n-2x + 10 = 4x - 8\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 4x çıkaralım.\n-2x - 4x + 10 = -8\n-6x + 10 = -8\n\n3. adım: Sabit terimi sağa geçirmek için her iki taraftan 10 çıkaralım.\n-6x = -8 - 10\n-6x = -18\n\n4. adım: Her iki tarafı -6'ya bölelim.\nx = -18/(-6)\nx = 3 (çünkü -6·3 = -18)\n\nSağlama: x = 3 değerini ilk denklemde yerine koyalım.\nSol taraf: 10 - 2·3 = 10 - 6 = 4\nSağ taraf: 4·3 - 8 = 12 - 8 = 4\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 3"
+  },
+  {
+   "soru": "Bir sayının 4 katının 7 eksiği 29 ediyor. Sayıyı bul.",
+   "beklenen": "9",
+   "model": "9",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Bilinmeyen sayıya x diyelim.\n\nDenklem: 4x - 7 = 29\n\n1. adım: Sabit terimi sağa geçirmek için her iki tarafa 7 ekleyelim.\n4x = 29 + 7\n4x = 36\n\n2. adım: Her iki tarafı 4'e bölelim.\nx = 36/4\nx = 9 (çünkü 4·9 = 36)\n\nSağlama: x = 9 değerini ilk denklemde yerine koyalım.\nSol taraf: 4·9 - 7 = 36 - 7 = 29\nSağ taraf: 29\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 9 (aranan sayı 9)"
+  },
+  {
+   "soru": "Ali'nin yaşının 3 katı 45 ise Ali kaç yaşındadır?",
+   "beklenen": "15",
+   "model": "15",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Ali'nin yaşına x diyelim.\n\nDenklem: 3x = 45\n\n1. adım: Her iki tarafı 3'e bölelim.\nx = 45/3\nx = 15 (çünkü 3·15 = 45)\n\nSağlama: x = 15 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·15 = 45\nSağ taraf: 45\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 15 (Ali 15 yaşındadır)"
+  },
+  {
+   "soru": "y - 7 = -2y + 11",
+   "beklenen": "6",
+   "model": "6",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: y - 7 = -2y + 11\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki tarafa 2y ekleyelim.\ny + 2y - 7 = 11\n3y - 7 = 11\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 7 ekleyelim.\n3y = 11 + 7\n3y = 18\n\n3. adım: Her iki tarafı 3'e bölelim.\ny = 18/3\ny = 6 (çünkü 3·6 = 18)\n\nSağlama: y = 6 değerini ilk denklemde yerine koyalım.\nSol taraf: 6 - 7 = -1\nSağ taraf: -2·6 + 11 = -12 + 11 = -1\nİki taraf eşit, çözüm doğru.\n\nSonuç: y = 6"
+  },
+  {
+   "soru": "Çöz bakalım: 6t + 2 = 2(3t + 1)",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "saglama_dogru": null,
+   "uretilen": "Denklem: 6t + 2 = 2(3t + 1)\n\n1. adım: Parantezleri açalım (dağılma özelliği): 2·3t = 6t, 2·1 = 2.\n6t + 2 = 6t + 2\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 6t çıkaralım.\n6t - 6t + 2 = 2\n\nBilinmeyen sadeleşti ve geriye 2 = 2 kaldı. Bu eşitlik her zaman doğrudur.\n\nSonuç: Denklem her t değeri için sağlanır (sonsuz çözüm vardır)."
+  },
+  {
+   "soru": "5(x-2) = 5x + 1 denkleminin çözüm kümesini bul",
+   "beklenen": "yok",
+   "model": "yok",
+   "cevap_dogru": true,
+   "saglama_dogru": null,
+   "uretilen": "Denklem: 5(x - 2) = 5x + 1\n\n1. adım: Parantezleri açalım (dağılma özelliği): 5·x = 5x, 5·(-2) = -10.\n5x - 10 = 5x + 1\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 5x çıkaralım.\n5x - 5x - 10 = 1\n\nBilinmeyen sadeleşti ve geriye -10 = 1 kaldı. Bu eşitlik hiçbir zaman doğru değildir.\n\nSonuç: Denklemin çözümü yoktur (çözüm kümesi boş kümedir)."
+  },
+  {
+   "soru": "(2x - 4)/3 = x - 3",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: (2x - 4)/3 = x - 3\n\n1. adım: Paydalardan kurtulmak için her iki tarafı 3 ile çarpalım: 3·((2x - 4)/3) = 2x - 4, 3·(x - 3) = 3x - 9.\n2x - 4 = 3x - 9\n\n2. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 3x çıkaralım.\n2x - 3x - 4 = -9\n-x - 4 = -9\n\n3. adım: Sabit terimi sağa geçirmek için her iki tarafa 4 ekleyelim.\n-x = -9 + 4\n-x = -5\n\n4. adım: Her iki tarafı -1 ile çarpalım.\nx = 5\n\nSağlama: x = 5 değerini ilk denklemde yerine koyalım.\nSol taraf: (2·5 - 4)/3 = (10 - 4)/3 = 6/3 = 2\nSağ taraf: 5 - 3 = 2\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 5"
+  },
+  {
+   "soru": "8x = 6",
+   "beklenen": "3/4",
+   "model": "3/4",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 8x = 6\n\n1. adım: Her iki tarafı 8'e bölelim.\nx = 6/8\nx = 3/4 (pay ve payda 2 ile sadeleşti)\n\nSağlama: x = 3/4 değerini ilk denklemde yerine koyalım.\nSol taraf: 8·(3/4) = 6\nSağ taraf: 6\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 3/4"
+  },
+  {
+   "soru": "x + 250 = 1000",
+   "beklenen": "750",
+   "model": "750",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: x + 250 = 1000\n\n1. adım: Sabit terimi sağa geçirmek için her iki taraftan 250 çıkaralım.\nx = 1000 - 250\nx = 750\n\nSağlama: x = 750 değerini ilk denklemde yerine koyalım.\nSol taraf: 750 + 250 = 1000\nSağ taraf: 1000\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 750"
+  },
+  {
+   "soru": "12 = 4(n - 2)",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 12 = 4(n - 2)\n\n1. adım: Parantezleri açalım (dağılma özelliği): 4·n = 4n, 4·(-2) = -8.\n4n - 8 = 12\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 8 ekleyelim.\n4n = 12 + 8\n4n = 20\n\n3. adım: Her iki tarafı 4'e bölelim.\nn = 20/4\nn = 5 (çünkü 4·5 = 20)\n\nSağlama: n = 5 değerini ilk denklemde yerine koyalım.\nSol taraf: 12\nSağ taraf: 4·(5 - 2) = 4·3 = 12\nİki taraf eşit, çözüm doğru.\n\nSonuç: n = 5"
+  },
+  {
+   "soru": "-x - 9 = 3",
+   "beklenen": "-12",
+   "model": "-12",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: -x - 9 = 3\n\n1. adım: Sabit terimi sağa geçirmek için her iki tarafa 9 ekleyelim.\n-x = 3 + 9\n-x = 12\n\n2. adım: Her iki tarafı -1 ile çarpalım.\nx = -12\n\nSağlama: x = -12 değerini ilk denklemde yerine koyalım.\nSol taraf: -(-12) - 9 = 12 - 9 = 3\nSağ taraf: 3\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = -12"
+  },
+  {
+   "soru": "3x + 2x - 5 = 20 denklemini adım adım çöz",
+   "beklenen": "5",
+   "model": "5",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 3x + 2x - 5 = 20\n\n1. adım: Benzer terimleri birleştirelim: 3x + 2x = 5x.\n5x - 5 = 20\n\n2. adım: Sabit terimi sağa geçirmek için her iki tarafa 5 ekleyelim.\n5x = 20 + 5\n5x = 25\n\n3. adım: Her iki tarafı 5'e bölelim.\nx = 25/5\nx = 5 (çünkü 5·5 = 25)\n\nSağlama: x = 5 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·5 + 2·5 - 5 = 15 + 10 - 5 = 20\nSağ taraf: 20\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 5"
+  },
+  {
+   "soru": "x/2 + x/4 = 9",
+   "beklenen": "12",
+   "model": "12",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: x/2 + x/4 = 9\n\n1. adım: Paydalardan kurtulmak için her iki tarafı 4 ile çarpalım: 4·(x/2) = 2x, 4·(x/4) = x, 4·9 = 36.\n2x + x = 36\n\n2. adım: Benzer terimleri birleştirelim: 2x + x = 3x.\n3x = 36\n\n3. adım: Her iki tarafı 3'e bölelim.\nx = 36/3\nx = 12 (çünkü 3·12 = 36)\n\nSağlama: x = 12 değerini ilk denklemde yerine koyalım.\nSol taraf: 12/2 + 12/4 = 6 + 3 = 9\nSağ taraf: 9\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 12"
+  },
+  {
+   "soru": "Bir sayının üç katına beş eklenince 26 oluyor, sayı kaç?",
+   "beklenen": "7",
+   "model": "7",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Bilinmeyen sayıya x diyelim.\n\nDenklem: 3x + 5 = 26\n\n1. adım: Sabit terimi sağa geçirmek için her iki taraftan 5 çıkaralım.\n3x = 26 - 5\n3x = 21\n\n2. adım: Her iki tarafı 3'e bölelim.\nx = 21/3\nx = 7 (çünkü 3·7 = 21)\n\nSağlama: x = 7 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·7 + 5 = 21 + 5 = 26\nSağ taraf: 26\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 7 (aranan sayı 7)"
+  },
+  {
+   "soru": "2x + 7 = 2x + 7 bu denklemin çözümü nedir",
+   "beklenen": "sonsuz",
+   "model": "sonsuz",
+   "cevap_dogru": true,
+   "saglama_dogru": null,
+   "uretilen": "Denklem: 2x + 7 = 2x + 7\n\n1. adım: Bilinmeyenli terimleri solda toplamak için her iki taraftan 2x çıkaralım.\n2x - 2x + 7 = 7\n\nBilinmeyen sadeleşti ve geriye 7 = 7 kaldı. Bu eşitlik her zaman doğrudur.\n\nSonuç: Denklem her x değeri için sağlanır (sonsuz çözüm vardır)."
+  },
+  {
+   "soru": "İki ardışık sayının toplamı 41 ise büyük sayı kaçtır?",
+   "beklenen": "21",
+   "model": "21",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Küçük sayıya x diyelim. Büyük sayı x + 1 olur.\n\nDenklem: x + x + 1 = 41\n\n1. adım: Benzer terimleri birleştirelim: x + x = 2x.\n2x + 1 = 41\n\n2. adım: Sabit terimi sağa geçirmek için her iki taraftan 1 çıkaralım.\n2x = 41 - 1\n2x = 40\n\n3. adım: Her iki tarafı 2'ye bölelim.\nx = 40/2\nx = 20 (çünkü 2·20 = 40)\n\nSağlama: x = 20 değerini ilk denklemde yerine koyalım.\nSol taraf: 20 + 20 + 1 = 41\nSağ taraf: 41\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 20 (büyük sayı 21)"
+  },
+  {
+   "soru": "solve 3x - 9 = 0",
+   "beklenen": "3",
+   "model": "3",
+   "cevap_dogru": true,
+   "saglama_dogru": true,
+   "uretilen": "Denklem: 3x - 9 = 0\n\n1. adım: Sabit terimi sağa geçirmek için her iki tarafa 9 ekleyelim.\n3x = 0 + 9\n3x = 9\n\n2. adım: Her iki tarafı 3'e bölelim.\nx = 9/3\nx = 3 (çünkü 3·3 = 9)\n\nSağlama: x = 3 değerini ilk denklemde yerine koyalım.\nSol taraf: 3·3 - 9 = 9 - 9 = 0\nSağ taraf: 0\nİki taraf eşit, çözüm doğru.\n\nSonuç: x = 3"
+  }
+ ]
+}
